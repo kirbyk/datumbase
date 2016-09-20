@@ -8,7 +8,7 @@ Datumbase.prototype.set = function(datum) {
   if (!this.datum && this.datum !== false && this.datum !== NaN) {
     throw "Can't set nothing!";
   }
-  this.datum = datum;
+  return this.datum = datum;
 };
 
 Datumbase.prototype.get = function() {
@@ -16,6 +16,10 @@ Datumbase.prototype.get = function() {
     throw "Can't get nothing!";
   }
   return this.datum;
+}
+
+Datumbase.prototype.remove = function() {
+  return this.datum = undefined;
 }
 
 module.exports = Datumbase;

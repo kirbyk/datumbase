@@ -18,11 +18,15 @@ $ npm install datumbase
 ```javascript
 var Datumbase = require('../datumbase.js');
 
-var name = new Datumbase;
+var name = new Datumbase('Everett'); // insert value
 
-name.set('Kirby');
-name.get();
+name.set('Kirby'); // update a value
+name.get(); // read a value
 // → 'Kirby'
+
+name.remove(); // delete a value
+name.get();
+// → undefinded
 ```
 
 ## Webserver Example
