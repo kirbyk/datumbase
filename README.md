@@ -18,7 +18,7 @@ $ npm install datumbase
 ```javascript
 var Datumbase = require('../datumbase.js');
 
-var name = new Datumbase('Everett'); // insert value
+var name = new Datumbase('Everett'); // create value
 
 name.set('Kirby'); // update a value
 name.get(); // read a value
