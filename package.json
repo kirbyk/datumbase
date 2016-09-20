@@ -4,7 +4,7 @@
   "description": "Like a database, but only for one datum.",
   "main": "datumbase.js",
   "scripts": {
-    "start": "node datumbase.js"
+    "start": "node examples/website.js"
   },
   "author": "Kirby Kohlmorgen <me@kirby.xyz>",
   "license": "MIT"
