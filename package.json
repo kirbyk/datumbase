@@ -1,7 +1,7 @@
 {
   "name": "datumbase",
   "version": "0.0.1",
-  "description": "Like a database, but only for one datum.",
+  "description": "Like a database, but for only one datum.",
   "main": "datumbase.js",
   "scripts": {
     "start": "node examples/website.js"
